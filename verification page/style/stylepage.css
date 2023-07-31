@@ -1,0 +1,106 @@
+h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main_ {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 15px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  margin: 0 auto;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.textfield1 {
+  flex: 1;
+  padding: 8px;
+  border: solid black thin;
+  font-size: medium;
+  width: 50%;
+}
+.textfield2 {
+  flex: 1;
+  padding: 8px;
+  border: solid black thin;
+  font-size: medium;
+  width: 50%;
+}
+.buttonLogin {
+  flex: 1;
+  padding: 8px;
+  border: solid black thin;
+  font-size: medium;
+  border-radius: 5px;
+  width: 80px;
+  background-color: green;
+  color: white;
+}
+.buttonLogin2 {
+  background-color: rgb(56 138 205);
+  color: white;
+  flex: 1;
+  padding: 8px;
+  border: solid black thin;
+  font-size: medium;
+  border-radius: 5px;
+  width: 80px;
+}
+body {
+  padding: 0;
+  margin: 0;
+  height: 15cm;
+  margin-top:80px;
+}
+.main
+{
+    margin-top:85px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: white;
+    color:black;
+    padding:15px;
+}
+a:active{
+    background-color: rgb(236, 156, 156);
+    color:black;
+    padding:15px;
+}
+
+.writeme
+{
+  color:red;
+}
+table
+{
+  margin:0 auto;
+  border-collapse: collapse;
+}
+td
+{
+  border-bottom:thin black solid;
+  padding-right:70px;
+  padding-left:70px;
+  padding-top:9px;
+  padding-bottom:9px;
+  margin:0px;
+}
+tr.adf
+{
+  background-color:green;
+  color:white;
+}
+a.no{
+  color:black;
+}
+a.no:hover{
+  background-color:lightgray;
+  padding:0px;
+}
